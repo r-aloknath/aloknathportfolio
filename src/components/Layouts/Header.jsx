@@ -13,8 +13,8 @@ export default function Header() {
           <img src={logo} alt="" className='h-11' />
         </div>
         <div className=''>
-          <a className='text-[#8b9f9f] hover:text-white font-bold me-8 hidden md:inline'> Home</a>
-          <a className='text-[#56b887] font-bold me-8 hidden md:inline'> Hire Me!</a>
+          <span className='text-[#8b9f9f] hover:text-white font-bold me-8 hidden md:inline'> Home</span>
+          <span className='text-[#56b887] font-bold me-8 hidden md:inline'> Hire Me!</span>
           <div className='bg-[#212526] rounded-md border-2 border-[#2a2e2e] text-3xl text-[#8b9f9f] cursor-pointer flex items-center justify-center float-right lg:hidden' onClick={()=>dispatch(toggle())}>
             <i className="fa-solid fa-bars"></i>
           </div>
