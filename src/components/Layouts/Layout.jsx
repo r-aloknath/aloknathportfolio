@@ -25,7 +25,7 @@ export default function Layout() {
                 </div>
             </div>
             <MobileRightBar/>
-            <div className='hidden lg:block lg:col-span-1'>
+            <div className='hidden lg:block md:col-span-1'>
                 <RightBar />
             </div>
         </div>

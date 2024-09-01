@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className='bg-[#212526] flex flex-col mt-5 mb-5 px-8 py-4 rounded-md border-2 border-[#2a2e2e]'>
         <div className="intro">
-          <div className="flex">
+          <div className="flex mt-3">
             <span className='square-marker'></span>
           <p className='text-[#8b9f9f] mb-3'>Hello! There I'm <span className='text-[#56b887] mb-5'>Aloknath Rath</span></p>
           </div>
@@ -26,7 +26,7 @@ export default function Home() {
       </div> */}
       </div>
 
-      <div className="stats w-[100%] grid grid-cols-12 mt-3 bg-[#212526] mt-5 mb-5 px-8 py-8 rounded-md border-2 border-[#2a2e2e]">
+      <div className="stats w-[100%] grid grid-cols-12 bg-[#212526] mt-5 mb-5 px-8 py-8 rounded-md border-2 border-[#2a2e2e]">
           <div className="col-span-6 md:col-span-3 mb-3 md:mb-0">
             <p className='text-3xl font-bold text-[#56b887]'>100k+</p>
             <p className='text-base font-semibold text-[#fff]'>Lines of code</p>

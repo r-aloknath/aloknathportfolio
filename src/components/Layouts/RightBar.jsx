@@ -39,19 +39,25 @@ export default function RightBar() {
       </div>
       <div className='mt-5 px-8 py-5 rounded-md text-4xl text-[#8b9f9f] cursor-pointer flex flex-col items-center justify-center'>
         <div className='w-100 text-2xl mt-6 mb-7 hover:text-[#56b887]'>
-            <p className='-rotate-90'>FB</p>
+          <a href='https://www.linkedin.com/in/aloknath-rath?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank' rel="noreferrer" ><p className='-rotate-90'>IN</p>
+          </a>
         </div>
 
         <div className='w-100 text-2xl mt-6 mb-7 hover:text-[#56b887]'>
-        <p className='-rotate-90'>TW</p>
+          <a href='https://x.com/AloknathRath' target='_blank' rel="noreferrer" ><p className='-rotate-90'>TW</p>
+          </a>
         </div>
 
         <div className='w-100 text-2xl mt-6 mb-7 hover:text-[#56b887]'>
-        <p className='-rotate-90'>IG</p>
+          <a href='https://www.instagram.com/aloknath.dev?igsh=MWRoNnFsMWF5bzA1bg==' target='_blank' rel="noreferrer">
+            <p className='-rotate-90'>IG</p>
+          </a>
         </div>
 
-        <div className='w-100 text-2xl mt-6 mb-7 hover:text-[#56b887] '>
-        <p className='-rotate-90'>IN</p>
+        <div className='w-100 text-2xl mt-6 mb-7 hover:text-[#56b887]'>
+          <a href='https://github.com/r-aloknath' target='_blank' rel="noreferrer">
+            <p className='-rotate-90'>GH</p>
+          </a>
         </div>
       </div>
     </>
