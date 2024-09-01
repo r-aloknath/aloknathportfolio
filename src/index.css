@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,86 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: #191c1c;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.tooltip {
+  position: relative;
+  ;
+}
+
+.tooltip-content {
+  display: none;
+  border-radius: 5px;
+  position: absolute;
+  right: 125%;
+  top: 10%;
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+
+.tooltip:hover .tooltip-content {
+  display: block;
+}
+
+.mobile-sidebar {
+  transition: all .5s ease-in-out;
+  transform: translateX(100%);
+}
+
+.open {
+  transform: translateX(0) !important;
+}
+
+.close-mark {
+  position: relative;
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.close-mark:before,
+.close-mark:after {
+  position: absolute;
+  top: 4.5px;
+  left: 15px;
+  content: ' ';
+  height: 25px;
+  width: 2px;
+  background-color: #fff;
+}
+
+.close-mark:before {
+  transform: rotate(45deg);
+}
+
+.close-mark:after {
+  transform: rotate(-45deg);
+}
+
+.square-marker {
+  display: block;
+  background-color: #ffffff;
+  height: 25px;
+  width: 25px;
+  position: relative;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.square-marker:after {
+  content: "";
+  background-color: #56b887;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
 }
