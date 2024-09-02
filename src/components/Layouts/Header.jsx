@@ -8,9 +8,9 @@ export default function Header() {
 
   return (
     <>
-      <div className='bg-[#212526] flex flex-row items-center justify-between mb-5 px-8 py-4 rounded-md border-2 border-[#2a2e2e]'>
+      <div className='bg-[#212526] flex flex-row items-center justify-between mb-5 px-8 py-3 md:py-4 rounded-md border-2 border-[#2a2e2e]'>
         <div className=''>
-          <img src={logo} alt="" className='h-11' />
+          <img src={logo} alt="" className='h-8 md:h-11' />
         </div>
         <div className=''>
           <span className='text-[#8b9f9f] hover:text-white font-bold me-8 hidden md:inline'> Home</span>

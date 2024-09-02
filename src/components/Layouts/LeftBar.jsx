@@ -30,7 +30,7 @@ export default function LeftBar() {
           <i className="fa-brands fa-instagram"></i>
         </a>
         <a href='https://x.com/AloknathRath' target='_blank' rel="noreferrer" className='h-12 w-12 text-[#656565] border-2 border-[#2a2e2e] text-2xl flex items-center justify-center rounded-md hover:bg-[#56b887]'>
-        <i class="fa-brands fa-x-twitter"></i>
+        <i className="fa-brands fa-x-twitter"></i>
         </a>
       </div>
     </div>

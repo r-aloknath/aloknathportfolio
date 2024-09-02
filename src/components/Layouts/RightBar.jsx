@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function RightBar() {
+  const navigate = useNavigate();
   return (
     <>
       <div className='bg-[#212526] mb-5 px-8 py-5 rounded-md border-2 border-[#2a2e2e] text-4xl text-[#8b9f9f] cursor-pointer flex items-center justify-center sticky top-0 z-10'>
@@ -32,7 +34,7 @@ export default function RightBar() {
           <div className="tooltip-content bg-[#56b887] text-base text-white text-center">Blogs</div>
         </div>
 
-        <div className='w-100 text-2xl mt-6 mb-7  tooltip'>
+        <div className='w-100 text-2xl mt-6 mb-7  tooltip' onClick={()=>navigate('contact')}>
           <i className="fa-solid fa-message"></i>
           <div className="tooltip-content bg-[#56b887] text-base text-white text-center">Contact</div>
         </div>
