@@ -12,7 +12,7 @@ export default function Home() {
           <p className='text-[#8b9f9f] mb-3'>Hello! There I'm <span className='text-[#56b887] mb-5'>Aloknath Rath</span></p>
           </div>
           <div className='grid grid-cols-12'>
-            <h3 className='text-4xl md:text-5xl col-span-12 md:col-span-8 text-white leading-[40px] md:leading-[55px]'>I'm making <span className='text-[#56b887]'>product</span> that makes you and <span className='text-[#56b887]'>business WoW!</span></h3>
+            <h3 className='text-4xl md:text-5xl col-span-12 md:col-span-8 text-white leading-[40px] md:leading-[55px]'>I'm making <span className='text-[#56b887]'>product</span> that makes you and your <span className='text-[#56b887]'>business WoW!</span></h3>
             <div className="hidden md:visible md:col-span-4"></div>
           </div>
         </div>
