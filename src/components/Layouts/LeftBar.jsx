@@ -6,7 +6,7 @@ export default function LeftBar() {
       <div className='mb-10 relative'>
         <img className='rounded-md' src={pimage} alt="" />
         <div className='absolute h-6 w-14 bg-[#56b887] -right-2 -bottom-5 rounded-md flex items-center justify-center text-white text-center font-semibold text-xs'>Years</div>
-        <div className='absolute h-8 w-8 bg-[#1f92ed] right-8 -bottom-2 rounded-[50%] flex items-center justify-center text-white text-right font-semibold'>3</div>
+        <div className='absolute h-8 w-8 bg-[#1f92ed] right-8 -bottom-2 rounded-[50%] flex items-center justify-center text-white text-right font-semibold'>2.5</div>
       </div>
       <div className='mb-10'>
         <h3 className='text-[32px] font-bold text-white text-center'>Aloknath Rath</h3>

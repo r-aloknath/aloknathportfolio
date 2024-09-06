@@ -7,6 +7,10 @@ import Home from './components/pages/Home';
 import Portfolio from './components/pages/Portfolio';
 import { useEffect } from 'react';
 import Contact from './components/pages/Contact';
+import AboutMe from './components/pages/AboutMe';
+import Education from './components/pages/Education';
+import Blogs from './components/pages/Blogs';
+import Projects from './components/pages/Projects';
 function App() {
   useEffect(() => {
     AOS.init();
@@ -19,6 +23,10 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path='portfolio' element={<Portfolio/>}/>
           <Route path='contact' element={<Contact/>}/>
+          <Route path='about' element={<AboutMe/>}/>
+          <Route path='education' element={<Education/>}/>
+          <Route path='blogs' element={<Blogs/>}/>
+          <Route path='projects' element={<Projects/>}/>
         </Route>
       </Routes>
     </Router>

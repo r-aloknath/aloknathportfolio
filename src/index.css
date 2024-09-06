@@ -49,15 +49,15 @@ code {
 .close-mark {
   position: relative;
   display: block;
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
 }
 
 .close-mark:before,
 .close-mark:after {
   position: absolute;
-  top: 4.5px;
-  left: 15px;
+  top: 0.5px;
+  left: 12.5px;
   content: ' ';
   height: 25px;
   width: 2px;
@@ -91,4 +91,34 @@ code {
   height: 25px;
   width: 25px;
   border-radius: 5px;
+}
+
+.education-container{
+  position: relative;
+}
+.education-container::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #56b887;
+  z-index: 1;
+}
+.education-container::after{
+  position: absolute;
+  left: 4px;
+  height: 100%;
+  width: 2px;
+  top: 5px;
+  content: "";
+  background: #2a2e2e;
+}
+@media (max-width: 768px) {
+  .education-container::before,
+  .education-container::after {
+    display: none;
+  }
 }

@@ -29,7 +29,7 @@ export default function Contact() {
                             <img src={phone} alt="" className='h-11' />
                             <p className='text-[#8b9f9f] mb-3 text-right'><span className='text-[#56b887] mb-5'>Contact <br /></span>Phone</p>
                         </div>
-                        <p className='font-extrabold text-white mt-6'>+92-7749927175</p>
+                        <p className='font-extrabold text-white mt-6'>+91-7749927175</p>
                     </div>
                     <div className="col-span-12 md:col-span-6 rounded-md border-2 border-[#2a2e2e] hover:border-[#56b887] cursor-pointer p-6">
                         <div className="flex flex-row items-center justify-between ">
@@ -48,7 +48,7 @@ export default function Contact() {
                 </div>
                 <h3 className='text-[#8b9f9f] text-3xl my-10'>Location Map</h3>
                 <div className='flex items-center w-full'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1870.2679706158503!2d85.81788295816594!3d20.360780897146373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19093b2361c1ad%3A0xbe76d77ac9faa12c!2sLP-104%2C%20Prasanti%20Vihar%2C%20Patia%2C%20Bhubaneswar%2C%20Odisha%20751024!5e0!3m2!1sen!2sin!4v1725297332661!5m2!1sen!2sin" className='w-full h-[350px] md:h-[500px] rounded-md' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1870.2679706158503!2d85.81788295816594!3d20.360780897146373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19093b2361c1ad%3A0xbe76d77ac9faa12c!2sLP-104%2C%20Prasanti%20Vihar%2C%20Patia%2C%20Bhubaneswar%2C%20Odisha%20751024!5e0!3m2!1sen!2sin!4v1725297332661!5m2!1sen!2sin" className='w-full h-[350px] md:h-[500px] rounded-md' allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <h3 className='text-[#8b9f9f] text-3xl my-10'>Contact Me</h3>
                 <div className='grid grid-cols-12 gap-x-4 gap-y-8 mb-3'>
