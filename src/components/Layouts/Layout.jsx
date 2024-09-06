@@ -5,8 +5,11 @@ import LeftBar from './LeftBar';
 import Footer from './Footer'
 import MobileRightBar from './MobileRightBar';
 import { Outlet } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 export default function Layout() {
+    const location = useLocation();
+
     return (
         <div className='w-100 h-100 grid grid-cols-12 p-6 md:p-4 gap-x-4'>
             <div className='hidden md:block md:col-span-4 lg:col-span-3'>
@@ -16,15 +19,17 @@ export default function Layout() {
                 <div className='sticky top-0 z-10'>
                     <Header />
                 </div>
-                <div className='block md:hidden md:col-span-4 lg:col-span-3'>
-                    <LeftBar />
-                </div>
+                {location.pathname === '/' && (
+                    <div className='block md:hidden md:col-span-4 lg:col-span-3'>
+                        <LeftBar />
+                    </div>
+                )}
                 <Outlet />
                 <div className='mt-5'>
                     <Footer />
                 </div>
             </div>
-            <MobileRightBar/>
+            <MobileRightBar />
             <div className='hidden lg:block md:col-span-1'>
                 <RightBar />
             </div>
