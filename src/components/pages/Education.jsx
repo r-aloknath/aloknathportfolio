@@ -39,7 +39,27 @@ export default function Education() {
                         </div>
                         <div className='col-span-12 md:col-span-8'>
                             <p className='text-lg text-white font-semibold'>Fakir Mohan Autonomous College</p>
-                            <p className='text-[#8b9f9f] mb-3 text-ju'>Bachelor of Science in Computer Science (BSc CS) is an undergraduate program that focuses on the foundational principles of computing, programming, and software development.</p>
+                            <p className='text-[#8b9f9f] mb-3'>Bachelor of Science in Computer Science (BSc CS) is an undergraduate program that focuses on the foundational principles of computing, programming, and software development.</p>
+                        </div>
+                    </div>
+                    <div className="education-container items-center justify-between md:ps-8  py-4 grid grid-cols-12 gap-y-2 mb-8 md:mb-0 cursor-pointer">
+                        <div className='col-span-12 md:col-span-4'>
+                            <p className='text-lg text-white font-semibold'>ISC/12<sup>th</sup> <br /><span className="text-sm">(Intermediate of Sciencd)</span></p>
+                            <p className='text-[#8b9f9f] mb-3'>Sept 2014 - June 2016</p>
+                        </div>
+                        <div className='col-span-12 md:col-span-8'>
+                            <p className='text-lg text-white font-semibold'>Fakir Mohan Junior College</p>
+                            <p className='text-[#8b9f9f] mb-3'>Bachelor of Science in Computer Science (BSc CS) is an undergraduate program that focuses on the foundational principles of computing, programming, and software development.</p>
+                        </div>
+                    </div>
+                    <div className="education-container items-center justify-between md:ps-8  py-4 grid grid-cols-12 gap-y-2 mb-8 md:mb-0 cursor-pointer">
+                        <div className='col-span-12 md:col-span-4'>
+                            <p className='text-lg text-white font-semibold'>High School/10<sup>th</sup> <br /><span className="text-sm">(Intermediate of Sciencd)</span></p>
+                            <p className='text-[#8b9f9f] mb-3'> - June 2014</p>
+                        </div>
+                        <div className='col-span-12 md:col-span-8'>
+                            <p className='text-lg text-white font-semibold'>Balasore Zilla School</p>
+                            <p className='text-[#8b9f9f] mb-3'>Bachelor of Science in Computer Science (BSc CS) is an undergraduate program that focuses on the foundational principles of computing, programming, and software development.</p>
                         </div>
                     </div>
 

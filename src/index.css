@@ -93,10 +93,11 @@ code {
   border-radius: 5px;
 }
 
-.education-container{
+.education-container {
   position: relative;
 }
-.education-container::before{
+
+.education-container::before {
   content: "";
   position: absolute;
   left: 0;
@@ -107,7 +108,8 @@ code {
   background: #56b887;
   z-index: 1;
 }
-.education-container::after{
+
+.education-container::after {
   position: absolute;
   left: 4px;
   height: 100%;
@@ -116,7 +118,18 @@ code {
   content: "";
   background: #2a2e2e;
 }
+
+.project-card {
+  background: radial-gradient(at top right, #56b887db, #56b8874d, #56b88717, transparent);
+  background-size: 150%;
+  transition: all 0.5s ease-in-out;
+}
+.project-card:hover {
+  background-size: 100%;
+}
+
 @media (max-width: 768px) {
+
   .education-container::before,
   .education-container::after {
     display: none;

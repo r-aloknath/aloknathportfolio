@@ -19,11 +19,24 @@ export default function AboutMe() {
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-12">
-                    <div className="col-span-12 md:col-span-5"></div>
-                    <div className="col-span-12 md:col-span-7"></div>
+                <div className="grid grid-cols-12 mt-10 md:gap-x-10">
+                    <div className="col-span-12 md:col-span-6">
+                        <div className='flex md:hidden items-center py-10'>
+                            <i class="fa-solid fa-star py-[10px] px-[13px] bg-[#56b887] text-2xl text-white rounded-[50%]"></i> <br />
+                            <p className='ml-4'> <span className='text-2xl font-bold text-white'>5 Star</span> <br /> <span className='text-[#8b9f9f]'>raed the </span> <span className='text-[#56b887]'>Success Stories</span></p>
+                        </div>
+                        <p className='text-[#8b9f9f] mb-3 text-justify'>I’m a web developer with over 2.5 years of experience crafting dynamic, user-friendly applications. My expertise spans across a wide range of modern technologies including Angular, React, React Native, Ionic, Laravel, and more. I am passionate about building clean, responsive, and efficient web solutions that deliver a seamless user experience. I’m now focusing on freelancing to bring flexible and high-quality solutions to clients around the globe.</p>
+                        <div className='hidden md:flex items-center py-10 '>
+                            <i class="fa-solid fa-star py-[10px] px-[13px] bg-[#56b887] text-2xl text-white rounded-[50%]"></i> <br />
+                            <p className='ml-4'> <span className='text-2xl font-bold text-white'>5 Star</span> <br /> <span className='text-[#8b9f9f]'>raed the </span> <span className='text-[#56b887]'>Success Stories</span></p>
+                        </div>
+                    </div>
+                    <div className="col-span-12 md:col-span-6">
+                        <p className='text-[#8b9f9f] mb-3  text-justify'>As a versatile developer, I specialize in creating web and mobile applications using the latest frameworks and tools. With a strong background in both frontend and backend technologies, I offer comprehensive solutions from start to finish. Whether it's developing scalable APIs with MySQL and MongoDB, or designing intuitive interfaces with HTML, CSS, Bootstrap, and Tailwind, I deliver solutions tailored to meet your needs.</p>
+                        <p className='text-[#8b9f9f] mb-3  text-justify'>With a deep understanding of modern web technologies and frameworks, I bring a full-stack approach to every project. My experience in both the development of complex systems and design of engaging user experiences makes me a valuable partner for your next project. I thrive in collaborative environments and am committed to delivering on time, every time. Let’s work together to bring your vision to life.</p>
+                    </div>
                 </div>
-                <div className="grid grid-cols-12 mt-10">
+                <div className="grid grid-cols-12 mt-10 mb-10 md:gap-x-10">
                     <div className="col-span-12 md:col-span-6 mt-7 md:mt-0 text-center md:text-left">
                         <p className='text-xl font-bold text-white uppercase'>name</p>
                         <p className='text-base font-semibold text-[#8b9f9f] mt-1 cursor-pointer'>Aloknath Rath</p>
