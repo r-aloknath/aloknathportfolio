@@ -13,6 +13,34 @@ body {
   background-color: #191c1c;
 }
 
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  /* Width of the scrollbar */
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* Track background */
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #56b8878a;
+  /* Scrollbar thumb color */
+  border-radius: 10px;
+  /* Rounded edges of the scrollbar thumb */
+  border: none;
+  /* Add padding around the thumb */
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #56b887;
+  /* Thumb color when hovered */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -124,8 +152,30 @@ code {
   background-size: 150%;
   transition: all 0.5s ease-in-out;
 }
+
 .project-card:hover {
   background-size: 100%;
+}
+
+.custom-bullets {}
+
+.custom-bullets li {
+  position: relative;
+  padding-left: 1.5rem;
+  /* Space for custom bullet */
+}
+
+.custom-bullets li::before {
+  content: '';
+  height: 6px;
+  width: 6px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: 1px;
+  background-color: #56b887;
 }
 
 @media (max-width: 768px) {

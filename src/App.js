@@ -12,6 +12,7 @@ import Education from './components/pages/Education';
 import Blogs from './components/pages/Blogs';
 import Projects from './components/pages/Projects';
 import BlogDetails from './components/pages/BlogDetails';
+import ProjectDetails from './components/pages/ProjectDetails';
 function App() {
   useEffect(() => {
     AOS.init();
@@ -29,6 +30,7 @@ function App() {
           <Route path='blogs' element={<Blogs/>}/>
           <Route path='projects' element={<Projects/>}/>
           <Route path='blog-details' element={<BlogDetails/>}/>
+          <Route path='project-details' element={<ProjectDetails/>}/>
         </Route>
       </Routes>
     </Router>

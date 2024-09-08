@@ -22,32 +22,32 @@ export default function MobileRightBar() {
                 </div>
                 <div className="nav-container">
                     <div className='px-8 py-5 rounded-md text-4xl text-[#8b9f9f] cursor-pointer'>
-                        <div className='w-100 text-xl mt-6 mb-8 text-left'  onClick={()=>{navigate('/');dispatch(toggle())}}>
+                        <div className='w-100 text-xl mt-6 mb-8 text-left' onClick={() => { navigate('/'); dispatch(toggle()) }}>
                             <i className="fa-solid fa-house"></i>
                             <span className="text-[#8b9f9f] text-base ms-4 uppercase">home</span>
                         </div>
 
                         <div className='w-100 text-xl mt-6 mb-8 text-left'>
-                            <i className="fa-solid fa-briefcase"></i>
-                            <span className="text-[#8b9f9f] text-base ms-4 uppercase" onClick={() => {navigate('about');dispatch(toggle())}}>About</span>
+                            <i class="fa-solid fa-user"></i>
+                            <span className="text-[#8b9f9f] text-base ms-4 uppercase" onClick={() => { navigate('about'); dispatch(toggle()) }}>About</span>
                         </div>
 
-                        <div className='w-100 text-xl mt-6 mb-8 text-left' onClick={() => {navigate('education');dispatch(toggle())}}>
+                        <div className='w-100 text-xl mt-6 mb-8 text-left' onClick={() => { navigate('education'); dispatch(toggle()) }}>
                             <i className="fa-solid fa-school"></i>
                             <span className="text-[#8b9f9f] text-base ms-4 uppercase">Education</span>
                         </div>
 
-                        <div className='w-100 text-xl mt-6 mb-8 text-left' onClick={() => {navigate('projects');dispatch(toggle())}}>
+                        <div className='w-100 text-xl mt-6 mb-8 text-left' onClick={() => { navigate('projects'); dispatch(toggle()) }}>
                             <i className="fa-solid fa-diagram-project"></i>
                             <span className="text-[#8b9f9f] text-base ms-4 uppercase">Projects</span>
                         </div>
 
-                        <div className='w-100 text-xl mt-6 mb-8 text-left' onClick={() => {navigate('blogs');dispatch(toggle())}}>
+                        <div className='w-100 text-xl mt-6 mb-8 text-left' onClick={() => { navigate('blogs'); dispatch(toggle()) }}>
                             <i className="fa-solid fa-feather"></i>
                             <span className="text-[#8b9f9f] text-base ms-4 uppercase">Blogs</span>
                         </div>
 
-                        <div className='w-100 text-xl mt-6 mb-8 text-left' onClick={() => {navigate('contact');dispatch(toggle())}}>
+                        <div className='w-100 text-xl mt-6 mb-8 text-left' onClick={() => { navigate('contact'); dispatch(toggle()) }}>
                             <i className="fa-solid fa-message"></i>
                             <span className="text-[#8b9f9f] text-base ms-4 uppercase">Contact</span>
                         </div>

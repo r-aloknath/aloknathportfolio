@@ -1,7 +1,10 @@
 import React from 'react'
 import underLine from '../../assets/img/line.svg'
+import { useNavigate } from 'react-router-dom';
 
 export default function Projects() {
+    const navigate = useNavigate();
+
     return (
         <>
             <div className='bg-[#212526] flex flex-col mt-5 mb-5 px-8 py-4 rounded-md border-2 border-[#2a2e2e] w-full'>
@@ -24,23 +27,13 @@ export default function Projects() {
                 </div> */}
                 <div className="grid grid-cols-12 mt-16 gap-y-5 md:gap-x-5">
                     <div className="col-span-12 md:col-span-6">
-                        <div className="relative w-full h-full rounded-md border-2 border-none project-card p-5">
-                            <a href="http://localhost:3000/projects" className=' absolute top-[5px] right-[5px] text-[#56b887] px-[8px] py-[5px] bg-white rounded-[50%] text-[12px] cursor-pointer'>
+                        <div className="relative w-full h-full rounded-md border-2 border-none project-card p-5 cursor-pointer">
+                            <span className='absolute top-[5px] right-[5px] text-[#56b887] px-[8px] py-[5px] bg-white rounded-[50%] text-[12px] cursor-pointer' onClick={()=>navigate('/project-details')}>
                                 <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
+                            </span>
                             <p className='text-xl font-semibold text-white'>Live Weather App</p>
                             <p className='text-[#8b9f9f] text-sm mt-3'><span className='text-[#56b887]'>Technlogy used:</span></p>
                             <p className='text-[#8b9f9f] text-sm'>Angular, Live weather API </p>
-                        </div>
-                    </div>
-                    <div className="col-span-12 md:col-span-6">
-                        <div className="relative w-full h-full rounded-md border-2 border-none project-card p-5">
-                            <a href="http://localhost:3000/projects" className=' absolute top-[5px] right-[5px] text-[#56b887] px-[8px] py-[5px] bg-white rounded-[50%] text-[12px] cursor-pointer'>
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                            <p className='text-xl font-semibold text-white'>Simple Calculator</p>
-                            <p className='text-[#8b9f9f] text-sm mt-3'><span className='text-[#56b887]'>Technlogy used:</span></p>
-                            <p className='text-[#8b9f9f] text-sm'>HTML, CSS, JAVASCRIPT</p>
                         </div>
                     </div>
                 </div>
