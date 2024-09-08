@@ -19,7 +19,7 @@ export default function RightBar() {
         </div>
 
         <div className='w-100 text-2xl mt-6 mb-7 tooltip' onClick={() => { navigate('about'); dispatch(toggle()) }}>
-          <i class="fa-solid fa-user"></i>
+          <i className="fa-solid fa-user"></i>
           <div className="tooltip-content bg-[#56b887] text-base text-white text-center" >About</div>
         </div>
 

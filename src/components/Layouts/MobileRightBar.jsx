@@ -28,7 +28,7 @@ export default function MobileRightBar() {
                         </div>
 
                         <div className='w-100 text-xl mt-6 mb-8 text-left'>
-                            <i class="fa-solid fa-user"></i>
+                            <i className="fa-solid fa-user"></i>
                             <span className="text-[#8b9f9f] text-base ms-4 uppercase" onClick={() => { navigate('about'); dispatch(toggle()) }}>About</span>
                         </div>
 
