@@ -25,7 +25,7 @@ export default function Education() {
                     <div className="education-container items-center justify-between md:ps-8 py-4 grid grid-cols-12 gap-y-2 mb-8 md:mb-0 cursor-pointer">
                         <div className='col-span-12 md:col-span-4'>
                             <p className='text-lg text-white font-semibold'>MCA <br /><span className="text-sm">(Master of Computer Application)</span></p>
-                            <p className='text-[#8b9f9f] mb-3'>Aug 2020 - March 2024</p>
+                            <p className='text-[#8b9f9f] mb-3'>Aug 2020 - March 2022</p>
                         </div>
                         <div className='col-span-12 md:col-span-8'>
                             <p className='text-lg text-white font-semibold'>Indira Gandhi Institute of TEchnology</p>
