@@ -65,44 +65,44 @@ export default function Education() {
 
                 </div>
                 <h3 className='text-[#8b9f9f] text-3xl my-10'>Skills</h3>
-                <div className="w-full grid grid-cols-12 md:gap-x-14 gap-y-9">
-                    <div className="col-span-12 md:col-span-6">
+                <div className="w-full grid grid-cols-12 lg:gap-x-14 gap-y-9">
+                    <div className="col-span-12 lg:col-span-6">
                         <p className='text-lg text-white font-semibold'>Web Developemment</p>
                         <div className="bg-[#363c3c] h-[15px] w-full relative mt-2">
                             <div className={`absolute top-0 left-0 bg-[#56b887] h-[5px] w-[${webDesin}]`}></div>
                         </div>
                     </div>
-                    <div className="col-span-12 md:col-span-6">
+                    <div className="col-span-12 lg:col-span-6">
                         <p className='text-lg text-white font-semibold'>Web Design</p>
                         <div className="bg-[#363c3c] h-[15px] w-full relative mt-2">
                             <div className="absolute top-0 left-0 bg-[#56b887] h-[5px] w-[70%]"></div>
                         </div>
                     </div>
-                    <div className="col-span-12 md:col-span-6">
+                    <div className="col-span-12 lg:col-span-6">
                         <p className='text-lg text-white font-semibold'>Javascript</p>
                         <div className="bg-[#363c3c] h-[15px] w-full relative mt-2">
                             <div className="absolute top-0 left-0 bg-[#56b887] h-[5px] w-[95%]"></div>
                         </div>
                     </div>
-                    <div className="col-span-12 md:col-span-6">
+                    <div className="col-span-12 lg:col-span-6">
                         <p className='text-lg text-white font-semibold'>Typescript</p>
                         <div className="bg-[#363c3c] h-[15px] w-full relative mt-2">
                             <div className="absolute top-0 left-0 bg-[#56b887] h-[5px] w-[90%]"></div>
                         </div>
                     </div>
-                    <div className="col-span-12 md:col-span-6">
+                    <div className="col-span-12 lg:col-span-6">
                         <p className='text-lg text-white font-semibold'>HTML, CSS</p>
                         <div className="bg-[#363c3c] h-[15px] w-full relative mt-2">
                             <div className="absolute top-0 left-0 bg-[#56b887] h-[5px] w-[95%]"></div>
                         </div>
                     </div>
-                    <div className="col-span-12 md:col-span-6">
+                    <div className="col-span-12 lg:col-span-6">
                         <p className='text-lg text-white font-semibold'>Tailwind</p>
                         <div className="bg-[#363c3c] h-[15px] w-full relative mt-2">
                             <div className="absolute top-0 left-0 bg-[#56b887] h-[5px] w-[85%]"></div>
                         </div>
                     </div>
-                    <div className="col-span-12 md:col-span-6">
+                    <div className="col-span-12 lg:col-span-6">
                         <p className='text-lg text-white font-semibold'>Bootstrap</p>
                         <div className="bg-[#363c3c] h-[15px] w-full relative mt-2">
                             <div className="absolute top-0 left-0 bg-[#56b887] h-[5px] w-[80%]"></div>
